@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Current configuration #{config}
+  p Set a new config #[a(href="http://localhost:3000/setCofig") here without restarting the application]
